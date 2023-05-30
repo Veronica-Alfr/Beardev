@@ -1,11 +1,6 @@
 import styled from "styled-components";
 
 const HeaderStyled = styled.header`
-    // * {
-    //     width: 0;
-    //     heigth: 0;
-    // }
-
     @font-face {
         font-family: "Dense";
         src: url("dense.regular.otf") format("opentype");
