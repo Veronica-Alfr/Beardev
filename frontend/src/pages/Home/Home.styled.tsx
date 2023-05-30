@@ -13,7 +13,7 @@ const HomeStyled = styled.section`
 
     ::after {
         background-image: url(${backgroundScreenNotebook});
-        content: '';
+        content: "";
         top: 0;
         left: 0;
         position: absolute;
@@ -24,7 +24,7 @@ const HomeStyled = styled.section`
     }
 
     ::before {
-        content: '';
+        content: "";
         top: 0;
         left: 0;
         position: absolute;

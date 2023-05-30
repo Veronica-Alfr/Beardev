@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const AboutStyled = styled.section`
-   // @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
     * {
         padding: 0;
@@ -20,15 +20,16 @@ const AboutStyled = styled.section`
         margin-bottom: 1em;
         margin-right: 8em;
 
-        width: 60ch;
-        
+        width: 62ch;
+
         font-family: Roboto;
     }
 
     h1 {
         font-size: 2.45em;
+        font-weight: 700;
     }
-    
+
     .paragraph-about {
         margin-top: 25px;
 
@@ -36,7 +37,8 @@ const AboutStyled = styled.section`
     }
 
     .paragraph-about-bold {
-        font-size: 1.3em;
+        font-size: 1.4em;
+        font-weight: 700;
     }
 
     .logo-highest {
