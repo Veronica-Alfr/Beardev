@@ -1,4 +1,4 @@
 export interface ICustomerReviews {
-    nameCustomer: string,
-    review: string
+    nameCustomer: string;
+    review: string;
 }

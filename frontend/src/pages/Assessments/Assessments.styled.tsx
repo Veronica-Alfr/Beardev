@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 const AssessmentsStyled = styled.section`
-    @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Roboto&display=swap');
-    
+    @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Roboto&display=swap");
+
     * {
         padding: 0;
         margin: 0;
     }
 
-    background: #3C3C3B;
+    background: #3c3c3b;
     width: 100%;
     height: 100%;
 
@@ -22,10 +22,10 @@ const AssessmentsStyled = styled.section`
     }
 
     h1 {
-        font-family: 'Antonio';
+        font-family: "Antonio";
         font-weight: 100;
         font-size: 3em; // o tamanho da letra tem que ultrapassar pouco o card
-        color: #FFFFFF;
+        color: #ffffff;
 
         margin-left: 1em;
     }
@@ -49,7 +49,7 @@ const AssessmentsStyled = styled.section`
 
     .photo-customer {
         // background: #D9D9D9;
-        background: #9D9D9C;
+        background: #9d9d9c;
         border-radius: 100%;
 
         width: 10em;
@@ -59,14 +59,14 @@ const AssessmentsStyled = styled.section`
     }
 
     p {
-        color: #9D9D9C;
-        font-family: 'Roboto';
+        color: #9d9d9c;
+        font-family: "Roboto";
     }
 
     .name-customer {
         font-weight: 700;
         font-size: 1.6em;
-        
+
         margin-bottom: 0.5em;
     }
 
