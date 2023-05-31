@@ -1,5 +1,4 @@
 export interface ICustomerReviews {
-    name: string,
-    rating: SVGElement[],
+    nameCustomer: string,
     review: string
 }

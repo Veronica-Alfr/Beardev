@@ -8,6 +8,11 @@ const HeaderStyled = styled.header`
         font-weight: 400;
     }
 
+    // * {
+    //     padding: 0;
+    //     margin: 0;
+    // }
+
     display: flex;
     justify-content: space-around;
 
