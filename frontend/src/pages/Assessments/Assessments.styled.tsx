@@ -12,10 +12,28 @@ const AssessmentsStyled = styled.section`
     width: 100%;
     height: 100%;
 
+    .slider-container {
+        position: relative;
+    }
+    
+    .slider-container .slick-slide {
+        padding: 2em;
+    }
+
+    .slick-arrow {
+        position: absolute;
+        top: 48%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+    
+    .slider-container .slick-track {
+        margin: 0 18em;
+    }
+
     .container-all-text {
         display: flex;
         flex-direction: column;
-
         padding-top: 5em;
         padding-left: 6.45em;
         padding-right: 6.45em;
@@ -24,31 +42,43 @@ const AssessmentsStyled = styled.section`
     h1 {
         font-family: "Antonio";
         font-weight: 100;
-        font-size: 3em; // o tamanho da letra tem que ultrapassar pouco o card
+        font-size: 4.5em;
         color: #ffffff;
 
-        margin-left: 1em;
-    }
-
-    .container-assessments {
-        display: flex;
-        justify-content: center;
+        margin-left: 0.5em;
     }
 
     .container-customers-reviews {
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         align-items: center;
 
         margin-top: 1.5em;
-        margin-bottom: 4.4em;
+        margin-bottom: -22em;
         padding: 2em;
+
+        border-radius: 0.6em;
 
         line-height: 150%;
     }
 
+    .container-customers-reviews:hover {
+        background: #F6F6F6;
+    }
+
+    .container-customers-reviews:hover .customer-review {
+        color: #3C3C3B;
+    }
+
+    .container-customers-reviews:hover .name-customer {
+        color: #575756;
+    }
+
+    .container-customers-reviews:hover .photo-customer {
+        background: #D9D9D9;
+    }
+
     .photo-customer {
-        // background: #D9D9D9;
         background: #9d9d9c;
         border-radius: 100%;
 
@@ -70,8 +100,18 @@ const AssessmentsStyled = styled.section`
         margin-bottom: 0.5em;
     }
 
+    .stars {
+        display: flex;
+        margin-bottom: 0.3em;
+    }
+
     .star {
-        margin-bottom: 0.2em;
+        margin: 0.4em;
+    }
+
+    .container-review {
+       padding-right: 1em;
+       padding-left: 1em;
     }
 
     .customer-review {
