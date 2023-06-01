@@ -15,7 +15,7 @@ const AssessmentsStyled = styled.section`
     .slider-container {
         position: relative;
     }
-    
+
     .slider-container .slick-slide {
         padding: 2em;
     }
@@ -26,7 +26,7 @@ const AssessmentsStyled = styled.section`
         transform: translateY(-50%);
         z-index: 1;
     }
-    
+
     .slider-container .slick-track {
         margin: 0 18em;
     }
@@ -63,11 +63,11 @@ const AssessmentsStyled = styled.section`
     }
 
     .container-customers-reviews:hover {
-        background: #F6F6F6;
+        background: #f6f6f6;
     }
 
     .container-customers-reviews:hover .customer-review {
-        color: #3C3C3B;
+        color: #3c3c3b;
     }
 
     .container-customers-reviews:hover .name-customer {
@@ -75,7 +75,7 @@ const AssessmentsStyled = styled.section`
     }
 
     .container-customers-reviews:hover .photo-customer {
-        background: #D9D9D9;
+        background: #d9d9d9;
     }
 
     .photo-customer {
@@ -110,8 +110,8 @@ const AssessmentsStyled = styled.section`
     }
 
     .container-review {
-       padding-right: 1em;
-       padding-left: 1em;
+        padding-right: 1em;
+        padding-left: 1em;
     }
 
     .customer-review {
