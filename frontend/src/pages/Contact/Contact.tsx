@@ -1,5 +1,4 @@
 import beardevLogo from "../../assets/icons/beardev-logo-page-contact.svg";
-// import Header from "../../components/Header/Header";
 import ContactStyled from "./Contact.styled";
 import emailIcon from "../../assets/icons/email-icon.svg";
 import whatsapIcon from "../../assets/icons/whatsap-icon.svg";
@@ -12,7 +11,6 @@ import Footer from "../../components/Footer/Footer";
 const Contact = () => {
     return (
         <ContactStyled>
-            {/* <Header /> */}
             <div className='container-contact'>
                 <h1>Contato</h1>
                 <div className='container-infos-contact'>

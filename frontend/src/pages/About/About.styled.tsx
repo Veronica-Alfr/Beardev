@@ -40,6 +40,10 @@ const AboutStyled = styled.section`
         width: 40%;
         margin-top: 2em;
     }
+
+    @media (max-width: 480px) {
+        
+    }
 `;
 
 export default AboutStyled;

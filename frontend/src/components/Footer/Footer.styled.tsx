@@ -43,6 +43,8 @@ const FooterStyled = styled.footer`
         background: transparent;
         border: none;
 
+        cursor: pointer;
+
         margin-top: 0.6em;
         margin-left: 0.7em;
     }

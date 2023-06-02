@@ -25,7 +25,7 @@ const ContactStyled = styled.section`
         font-family: "Antonio";
         font-weight: 100;
         font-size: 5em;
-        margin-left: -2.5em;
+        margin-left: -2em;
     }
 
     p {

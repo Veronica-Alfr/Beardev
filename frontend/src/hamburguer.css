@@ -1,0 +1,13 @@
+.navbar-hamburguer {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .header-styled {
+        background-color: red;
+    }
+
+    .navbar-hamburguer {
+        display: block;
+    }
+}
