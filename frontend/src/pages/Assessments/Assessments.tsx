@@ -1,21 +1,16 @@
 import React from "react";
-import Slider from "react-slick";
-import "./slick-carousel.css";
-import "./slick-theme.css";
-
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-
 import Header from "../../components/Header/Header";
 import AssessmentsStyled from "./Assessments.styled";
 import { customerReviewsData } from "./data/customerReviewsData";
 import star from "../../assets/icons/star.svg";
+import Slider from "react-slick";
+import "./slick/slick-carousel.css";
+import "./slick/slick-theme.css";
 
 const Assessments: React.FC = () => {
     const rating = [star, star, star, star, star];
 
     const settings = {
-        // dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 3,

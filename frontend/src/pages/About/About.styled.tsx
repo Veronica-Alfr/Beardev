@@ -3,11 +3,6 @@ import styled from "styled-components";
 const AboutStyled = styled.section`
     @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-    * {
-        padding: 0;
-        margin: 0;
-    }
-
     .container-about {
         display: flex;
         justify-content: center;

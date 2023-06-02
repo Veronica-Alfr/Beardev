@@ -3,11 +3,6 @@ import styled from "styled-components";
 const AssessmentsStyled = styled.section`
     @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Roboto&display=swap");
 
-    * {
-        padding: 0;
-        margin: 0;
-    }
-
     background: #3c3c3b;
     width: 100%;
     height: 100%;
@@ -20,15 +15,19 @@ const AssessmentsStyled = styled.section`
         padding: 2em;
     }
 
+    .slider-container .slick-track {
+        margin: 0 18em;
+    }
+
     .slick-arrow {
         position: absolute;
-        top: 48%;
+        top: 50%;
         transform: translateY(-50%);
         z-index: 1;
     }
 
-    .slider-container .slick-track {
-        margin: 0 18em;
+    .slick-next {
+        right: -50px;
     }
 
     .container-all-text {
@@ -42,7 +41,7 @@ const AssessmentsStyled = styled.section`
     h1 {
         font-family: "Antonio";
         font-weight: 100;
-        font-size: 4.5em;
+        font-size: 3.5em;
         color: #ffffff;
 
         margin-left: 0.5em;

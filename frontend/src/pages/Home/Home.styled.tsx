@@ -4,11 +4,6 @@ import backgroundScreenNotebook from "../../assets/background/background-home.sv
 const HomeStyled = styled.section`
     @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
-    * {
-        padding: 0;
-        margin: 0;
-    }
-
     position: relative;
 
     ::after {

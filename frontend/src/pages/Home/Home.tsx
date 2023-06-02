@@ -3,7 +3,6 @@ import HomeStyled from "./Home.styled";
 
 const Home = () => {
     return (
-        // <section>
         <HomeStyled>
             <Header />
             <div className='container-text-home'>
@@ -17,7 +16,6 @@ const Home = () => {
                 </div>
             </div>
         </HomeStyled>
-        // </section>
     );
 };
 

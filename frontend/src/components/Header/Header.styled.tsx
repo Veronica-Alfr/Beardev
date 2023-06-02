@@ -8,10 +8,10 @@ const HeaderStyled = styled.header`
         font-weight: 400;
     }
 
-    // * {
-    //     padding: 0;
-    //     margin: 0;
-    // }
+    /* *{
+        padding: 0;
+        margin: 0;
+    } */
 
     display: flex;
     justify-content: space-around;
@@ -24,19 +24,28 @@ const HeaderStyled = styled.header`
 
     button {
         background: transparent;
+        position: relative;
 
         border: 0.25em solid transparent;
 
-        padding-left: 0.8em;
-        padding-right: 0.8em;
+        cursor: pointer;
+
+        padding: 0.6em;
 
         margin-top: 2.55em;
         margin-bottom: 1.75em;
         margin-left: 3.1em;
     }
 
-    button:active {
-        border-bottom-color: #ffffff;
+    .router-name::after {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0.3em;
+        background-color: #ffffff;
+        border-radius: 1em;
     }
 
     .nav-name {

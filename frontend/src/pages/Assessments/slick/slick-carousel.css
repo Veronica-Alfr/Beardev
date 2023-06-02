@@ -8,7 +8,7 @@
 .slick-slider {
     position: relative; /* se apagar essa linha a seta prev/next some */
 
-    display: flex;
+    display: block;
     box-sizing: border-box;
 
     -webkit-user-select: none;
@@ -23,12 +23,8 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-/* .container-customers-reviews {
-    display: flex;
-} */
-
 .slick-list {
-    display: flex;
+    display: block;
     flex-direction: column;
     overflow: hidden;
 
