@@ -30,7 +30,9 @@ const Header = () => {
                 </button>
                 <button
                     className={`${
-                        location.pathname === "/assessments" ? "router-name" : null
+                        location.pathname === "/assessments"
+                            ? "router-name"
+                            : null
                     }`}
                     onClick={() => navigate("/assessments")}
                 >

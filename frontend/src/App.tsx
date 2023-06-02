@@ -4,6 +4,7 @@ import About from "./pages/About/About";
 import Assessments from "./pages/Assessments/Assessments";
 import Services from "./pages/Services/Services";
 import GlobalStyles from "./Global.styled";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
                 <Route path='/about' element={<About />} />
                 <Route path='/assessments' element={<Assessments />} />
                 <Route path='/services' element={<Services />} />
+                <Route path='/contact' element={<Contact />} />
             </Routes>
         </BrowserRouter>
     );
