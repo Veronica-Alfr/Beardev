@@ -13,10 +13,17 @@ const HeaderStyled = styled.header`
         margin: 0;
     } */
 
-    display: flex;
-    justify-content: space-around;
+    .container-nav-and-logo {
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
 
-    background: rgba(87, 87, 86, 0.44);
+        background: rgba(87, 87, 86, 0.44);
+    }
+
+    .logo-with-name {
+        display: none;
+    }
 
     .container-button {
         display: flex;
@@ -56,6 +63,7 @@ const HeaderStyled = styled.header`
 
     .container-flags {
         display: flex;
+        margin-left: 10em;
     }
 
     .flag-Brazil {
@@ -70,20 +78,18 @@ const HeaderStyled = styled.header`
         @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
         display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        align-items: end;
 
-        padding-right: 2em;
-        padding-left: 2em;
-        width: 40vw;
-        height: 100vh;
+        .container-header-and-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-        position: absolute;
-        top: 0;
-        right: 0;
+            width: 100vw;
+        }
 
-        background: transparent;
+        .logo-with-name {
+            display: block;
+        }
 
         .container-button {
             display: none;
@@ -101,6 +107,7 @@ const HeaderStyled = styled.header`
         }
 
         .container-flags {
+            // aqui
             display: flex;
             align-items: end;
             justify-content: flex-end;
@@ -110,49 +117,65 @@ const HeaderStyled = styled.header`
 
         .flag-Brazil,
         .flag-USA {
-            width: 30%;
+            width: 120%;
         }
 
         .logo {
             display: none;
         }
 
-        .menu {
-            z-index: 2;
+        #menu {
+            padding-right: 2em;
+            padding-left: 2em;
+
+            margin-top: -0.5em;
+
+            position: absolute;
+            top: 0;
+            right: 0;
         }
 
         #menu-bar {
             display: block;
-            width: 45px;
-            height: 40px;
-            margin: 30px 0 20px 0px;
+            width: 2em;
+            margin: 1.85em 0 1.25em 0;
+        }
+
+        #menu-buttons {
+            margin-top: 3em;
         }
 
         .bar {
-            height: 5px;
+            height: 0.2em;
             width: 100%;
             background-color: white;
             display: block;
-            border-radius: 5px;
+            border-radius: 0.5em;
             transition: 0.3s ease;
         }
 
         #bar1 {
-            transform: translateY(-4px);
+            transform: translateY(-0.3em);
         }
 
         #bar3 {
-            transform: translateY(4px);
+            transform: translateY(0.25em);
         }
-        
+
+        .change-menu-nav {
+            background: rgba(87, 87, 86, 0.44);
+            height: 100vh;
+            width: 30vh;
+        }
+
         .change {
             display: flex;
             flex-direction: column;
             align-items: end;
         }
 
-        .change-header {
-            background: rgba(87, 87, 86, 0.44);
+        .change-menu {
+            padding-left: 10em;
         }
 
         .change-menu .bar {
@@ -160,7 +183,7 @@ const HeaderStyled = styled.header`
         }
 
         .change-menu #bar1 {
-            transform: translateY(4px) rotateZ(-45deg);
+            transform: translateY(0.15em) rotateZ(-45deg);
         }
 
         .change-menu #bar2 {
@@ -168,7 +191,7 @@ const HeaderStyled = styled.header`
         }
 
         .change-menu #bar3 {
-            transform: translateY(-6px) rotateZ(45deg);
+            transform: translateY(-0.3em) rotateZ(45deg);
         }
     }
 `;
