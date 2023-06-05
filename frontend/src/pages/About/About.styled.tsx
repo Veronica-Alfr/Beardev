@@ -42,7 +42,6 @@ const AboutStyled = styled.section`
     }
 
     @media (max-width: 480px) {
-        
     }
 `;
 
