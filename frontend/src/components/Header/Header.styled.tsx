@@ -117,7 +117,7 @@ const HeaderStyled = styled.header`
 
         .flag-Brazil,
         .flag-USA {
-            width: 120%;
+            width: 100%;
         }
 
         .logo {
@@ -131,6 +131,7 @@ const HeaderStyled = styled.header`
             margin-top: -0.5em;
 
             position: absolute;
+            z-index: 1;
             top: 0;
             right: 0;
         }
@@ -162,8 +163,17 @@ const HeaderStyled = styled.header`
             transform: translateY(0.25em);
         }
 
+        /* .router-name::after {
+            display: none;
+        }
+
+        .router-name .nav-name{
+            font-weight: 700;
+        } */
+
         .change-menu-nav {
-            background: rgba(87, 87, 86, 0.44);
+            /* background: rgba(87, 87, 86, 0.44); */
+            background: linear-gradient(180deg, rgba(112, 111, 111, 0.95) 0%, rgba(112, 111, 111, 0.798) 100%);
             height: 100vh;
             width: 30vh;
         }
