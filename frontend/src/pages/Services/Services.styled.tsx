@@ -75,7 +75,7 @@ const ServiceStyled = styled.section`
 
     .img-service {
         background: #9d9d9c;
-        border-radius: 100%;
+        border-radius: 0.3em;
 
         width: 10em;
         height: 10em;
