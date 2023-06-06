@@ -172,7 +172,6 @@ const HeaderStyled = styled.header`
         } */
 
         .change-menu-nav {
-            /* background: rgba(87, 87, 86, 0.44); */
             background: linear-gradient(180deg, rgba(112, 111, 111, 0.95) 0%, rgba(112, 111, 111, 0.798) 100%);
             height: 100vh;
             width: 30vh;
@@ -185,7 +184,7 @@ const HeaderStyled = styled.header`
         }
 
         .change-menu {
-            padding-left: 10em;
+            padding-left: 80%;
         }
 
         .change-menu .bar {

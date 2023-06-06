@@ -75,6 +75,20 @@ const HomeStyled = styled.section`
 
         margin-top: 1em;
     }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 4em;
+        }
+
+        .container-paragraph {
+            width: 21.5em;
+        }
+
+        .paragraph-home {
+            font-size: 1.5em;
+        }
+    }
 `;
 
 export default HomeStyled;
