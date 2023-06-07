@@ -127,6 +127,7 @@ const ServiceStyled = styled.section`
         }
 
         .container-about-service {
+            min-width: 90%;
             padding: 0 1em 0 1em;
         }
 
