@@ -104,9 +104,6 @@ const ServiceStyled = styled.section`
     }
 
     @media (max-width: 480px) {
-        /* width: 200vw;
-        height: 200vh; */
-
         h1 {
             font-size: 1.9em; // 1.9em
         }
@@ -125,7 +122,7 @@ const ServiceStyled = styled.section`
         }
 
         .container-services {
-            min-width: 250%;
+            min-width: 200%;
             padding: 0 1em 0 1em;
         }
 
@@ -148,7 +145,7 @@ const ServiceStyled = styled.section`
 
         .slider-container .slick-track {
             display: flex;
-            margin: 0 16em 16em;
+            margin: 0 13em 16em;
         }
 
         .slick-next {
