@@ -145,11 +145,11 @@ const ServiceStyled = styled.section`
 
         .slider-container .slick-track {
             display: flex;
-            margin: 0 13em 16em;
+            margin: 0 15em 16em;
         }
 
         .slick-next {
-            right: -50px;
+            right: -35px;
         }
     }
 `;
