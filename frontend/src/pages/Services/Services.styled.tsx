@@ -102,6 +102,59 @@ const ServiceStyled = styled.section`
     .about-service {
         font-size: 0.95em;
     }
+
+    @media (max-width: 480px) {
+        /* width: 200vw;
+        height: 200vh; */
+
+        h1 {
+            font-size: 1.9em; // 1.9em
+        }
+
+        .img-service {
+            width: 6em;
+            height: 6em;
+        }
+
+        .title-service {
+            font-size: 1em; // 1.2em
+        }
+
+        .about-service {
+            font-size: 0.8em; // 0.8em
+        }
+
+        .container-services {
+            min-width: 250%;
+            padding: 0 1em 0 1em;
+        }
+
+        .container-about-service {
+            padding: 0 1em 0 1em;
+        }
+
+        .slider-container {
+            margin-bottom: 6em;
+        }
+
+        .slider-container .slick-slider {
+            display: flex;
+            align-items: center;
+        }
+
+        .slider-container .slick-slide {
+            padding: 4em;
+        }
+
+        .slider-container .slick-track {
+            display: flex;
+            margin: 0 16em 16em;
+        }
+
+        .slick-next {
+            right: -50px;
+        }
+    }
 `;
 
 export default ServiceStyled;

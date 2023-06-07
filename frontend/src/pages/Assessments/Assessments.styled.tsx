@@ -140,8 +140,12 @@ const AssessmentsStyled = styled.section`
             font-size: 0.8em;
         }
 
+        .stars {
+            padding-left: 2em;
+        }
+
         .star {
-            width: 10%;
+            width: 8%;
         }
 
         .slider-container {
@@ -165,15 +169,6 @@ const AssessmentsStyled = styled.section`
         .slick-next {
             right: -35px;
         }
-
-        /* .slick-initialized .slick-slide {
-            display: flex;
-        } */
-
-        /* .slick-initialized .slick-slide {
-            display: flex;
-            justify-content: space-between;
-        } */
     }
 `;
 

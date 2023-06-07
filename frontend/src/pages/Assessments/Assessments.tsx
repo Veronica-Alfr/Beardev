@@ -9,6 +9,7 @@ import "./slick/slick-theme.css";
 
 const Assessments: React.FC = () => {
     const rating = [star, star, star, star, star];
+    const maxToShow = 4;
 
     const settings = {
         infinite: true,
@@ -19,7 +20,6 @@ const Assessments: React.FC = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    // infinite: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                 },
@@ -33,28 +33,33 @@ const Assessments: React.FC = () => {
             <div className='container-all-text'>
                 <h1>Avaliação de clientes</h1>
                 <Slider {...settings} className='slider-container'>
-                    {customerReviewsData.map( // igualar á 4?
-                        ({ nameCustomer, review }, index) => (
-                            <div
-                                className='container-customers-reviews'
-                                key={index}
-                            >
-                                <div className='photo-customer' />
-                                <p className='name-customer'>{nameCustomer}</p>
-                                <div className='stars'>
-                                    {rating.map(star => (
-                                        <img
-                                            className='star'
-                                            src={star}
-                                            alt='Rating Star'
-                                        />
-                                    ))}
+                    {customerReviewsData.map(
+                        ({ nameCustomer, review }, index) =>
+                            index < maxToShow && (
+                                <div
+                                    className='container-customers-reviews'
+                                    key={index}
+                                >
+                                    <div className='photo-customer' />
+                                    <p className='name-customer'>
+                                        {nameCustomer}
+                                    </p>
+                                    <div className='stars'>
+                                        {rating.map(star => (
+                                            <img
+                                                className='star'
+                                                src={star}
+                                                alt='Rating Star'
+                                            />
+                                        ))}
+                                    </div>
+                                    <div className='container-review'>
+                                        <p className='customer-review'>
+                                            {review}
+                                        </p>
+                                    </div>
                                 </div>
-                                <div className='container-review'>
-                                    <p className='customer-review'>{review}</p>
-                                </div>
-                            </div>
-                        )
+                            )
                     )}
                 </Slider>
             </div>

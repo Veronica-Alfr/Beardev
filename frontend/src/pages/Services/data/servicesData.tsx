@@ -2,6 +2,7 @@ import { IServices } from "../../../interfaces/IServices";
 
 export const servicesData: IServices[] = [
     {
+        id: 0,
         title: "Lorem Ipsum",
         service: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -17,6 +18,7 @@ export const servicesData: IServices[] = [
         purus gravida quis blandit turpis cursus in hac habitasse.`,
     },
     {
+        id: 1,
         title: "Lorem Ipsum",
         service: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -32,6 +34,7 @@ export const servicesData: IServices[] = [
             purus gravida quis blandit turpis cursus in hac habitasse.`,
     },
     {
+        id: 2,
         title: "Lorem Ipsum",
         service: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -47,6 +50,7 @@ export const servicesData: IServices[] = [
             purus gravida quis blandit turpis cursus in hac habitasse.`,
     },
     {
+        id: 3,
         title: "Lorem Ipsum",
         service: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

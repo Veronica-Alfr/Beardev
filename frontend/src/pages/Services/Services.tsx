@@ -12,7 +12,18 @@ const Services: React.FC = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
     };
+
+    const maxToShow = 4;
 
     return (
         <ServiceStyled>
@@ -20,15 +31,20 @@ const Services: React.FC = () => {
             <div className='container-all-text'>
                 <h1>Nossos Serviços</h1>
                 <Slider {...settings} className='slider-container'>
-                    {servicesData.map(({ title, service }, index) => (
-                        <div className='container-services' key={index}>
-                            <div className='img-service' />
-                            <p className='title-service'>{title}</p>
-                            <div className='container-about-service'>
-                                <p className='about-service'>{service}</p>
-                            </div>
-                        </div>
-                    ))}
+                    {servicesData.map(
+                        ({ title, service }, index) =>
+                            index < maxToShow && (
+                                <div className='container-services' key={index}>
+                                    <div className='img-service' />
+                                    <p className='title-service'>{title}</p>
+                                    <div className='container-about-service'>
+                                        <p className='about-service'>
+                                            {service}
+                                        </p>
+                                    </div>
+                                </div>
+                            )
+                    )}
                 </Slider>
             </div>
         </ServiceStyled>
