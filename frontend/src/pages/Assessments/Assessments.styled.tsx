@@ -116,6 +116,65 @@ const AssessmentsStyled = styled.section`
     .customer-review {
         font-size: 0.95em;
     }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.9em;
+        }
+
+        .photo-customer {
+            width: 6em;
+            height: 6em;
+        }
+
+        .name-customer {
+            font-size: 1.2em;
+        }
+
+        .container-customers-reviews {
+            min-width: 215%;
+            margin-top: -2em;
+        }
+
+        .customer-review {
+            font-size: 0.8em;
+        }
+
+        .star {
+            width: 10%;
+        }
+
+        .slider-container {
+            margin-bottom: 8em;
+        }
+
+        .slider-container .slick-slider {
+            display: flex;
+            align-items: center;
+        }
+
+        .slider-container .slick-slide {
+            padding: 6em;
+        }
+
+        .slider-container .slick-track {
+            display: flex;
+            margin: 0 12em 16em;
+        }
+
+        .slick-next {
+            right: -35px;
+        }
+
+        /* .slick-initialized .slick-slide {
+            display: flex;
+        } */
+
+        /* .slick-initialized .slick-slide {
+            display: flex;
+            justify-content: space-between;
+        } */
+    }
 `;
 
 export default AssessmentsStyled;

@@ -1,11 +1,13 @@
 import Header from "../../components/Header/Header";
 import AboutStyled from "./About.styled";
 import beardevLogoHighest from "../../assets/icons/beardev-logo-highest.svg";
+import AboutResponsive from "./responsive/AboutResponsive";
 
 const About = () => {
     return (
         <AboutStyled>
             <Header />
+            <AboutResponsive />
             <div className='container-about'>
                 <div className='container-paragraphs-about'>
                     <h1>Quem Somos</h1>
@@ -23,7 +25,7 @@ const About = () => {
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
                     </p>
-                    <p className='paragraph-about'>
+                    <p className='paragraph-about paragraph-third'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim ad minim veniam, quis nostrud

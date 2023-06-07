@@ -17,7 +17,7 @@ const AboutStyled = styled.section`
 
         width: 62ch;
 
-        font-family: Roboto;
+        font-family: "Roboto";
     }
 
     h1 {
@@ -41,7 +41,14 @@ const AboutStyled = styled.section`
         margin-top: 2em;
     }
 
+    .quadrilaterals-about {
+        display: none;
+    }
+
     @media (max-width: 480px) {
+        .container-about {
+            display: none;
+        }
     }
 `;
 
