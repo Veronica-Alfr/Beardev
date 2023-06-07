@@ -33,7 +33,7 @@ const Assessments: React.FC = () => {
             <div className='container-all-text'>
                 <h1>Avaliação de clientes</h1>
                 <Slider {...settings} className='slider-container'>
-                    {customerReviewsData.map(
+                    {customerReviewsData.map( // igualar á 4?
                         ({ nameCustomer, review }, index) => (
                             <div
                                 className='container-customers-reviews'
