@@ -150,7 +150,7 @@ const ServiceStyled = styled.section`
         }
 
         .slick-next {
-            right: -35px;
+            right: -30px;
         }
     }
 `;

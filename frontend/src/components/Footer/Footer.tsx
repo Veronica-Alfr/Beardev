@@ -57,13 +57,13 @@ const Footer = () => {
                     />
                 </div>
                 <div className='container-contacts'>
-                    <p>Nos acompanhe em nossas redes sociais</p>
+                    <p className="phrase-follow-us">Nos acompanhe em nossas redes sociais</p>
                     <div className='container-social-medias'>
                         <img
                             className='icon-media'
                             src={whatsapLogoHighest}
                             alt='Whatsap Logo'
-                        />{" "}
+                        />
                         {/*Fazer com que ao clicar no icone direcione para a pagina*/}
                         <img
                             className='icon-media'

@@ -56,6 +56,31 @@ const ContactStyled = styled.section`
         margin-top: -30%;
         z-index: 0;
     }
+
+    @media (max-width: 480px) {
+        h1 {
+            margin-left: -30%;
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 0.8em;
+        }
+
+        .icon-social-media {
+            width: 5%;
+        }
+
+        .container-infos-contact {
+            width: 50%;
+        }
+
+        .logo {
+            width: 32%;
+            margin-left: 1em;
+        }
+    }
 `;
 
 export default ContactStyled;

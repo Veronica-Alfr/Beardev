@@ -73,6 +73,52 @@ const FooterStyled = styled.footer`
         color: #f6f6f6;
         font-family: "Inter";
     }
+
+    @media (max-width: 480px) {
+        p {
+            font-size: 1em;
+        }
+
+        .container-buttons-logo {
+            min-width: 120%;
+            padding-top: 3em;
+        }
+
+        .container-button {
+           margin-left: -0.5em;
+        }
+
+        .container-category {
+            margin-left: 4em;
+        }
+
+        .container-contacts {
+            margin-left: 4em;
+        }
+
+        .logo-with-name {
+            width: 8em;
+        }
+
+        .phrase-follow-us {
+            font-size: 0.9em;
+            margin-top: -1.5em;
+        }
+
+        .container-social-medias {
+            margin-left: 1em;
+            margin-bottom: 1.5em;
+        }
+
+        .icon-media {
+            width: 30%;
+            margin-right: 0.4em;
+        }
+
+        span {
+            font-size: 0.9em;
+        }
+    }
 `;
 
 export default FooterStyled;
